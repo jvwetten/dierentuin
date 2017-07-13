@@ -1,0 +1,253 @@
+.skillbars .skillbars1, .skillbars .skillbars2, .workexperience .workexperienceinfo1, .workexperience .workexperienceinfo2 {
+  width: 48%;
+  display: inline-block; }
+
+.workexperience .workexperienceinfo1 .company .companytitle, .workexperience .workexperienceinfo2 .company .companytitle {
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 10px; }
+.workexperience .workexperienceinfo1 .company .companyrole, .workexperience .workexperienceinfo2 .company .companyrole {
+  font-size: 18px; }
+
+.skillbarstitle, .workexperiencetitel {
+  font-size: 25px;
+  font-weight: bold; }
+
+.formulier input, .formulier textarea, .formulier .btn {
+  width: 75%;
+  margin-left: 12.5%;
+  padding: 10px;
+  margin-bottom: 10px; }
+
+body {
+  margin: 0; }
+
+header {
+  background: black;
+  width: 100%; }
+  header nav {
+    text-align: center;
+    padding: 10px; }
+  header li {
+    list-style: none;
+    display: inline-block; }
+    header li:not(:last-of-type) {
+      padding-right: 80px; }
+  header a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none; }
+    header a:hover {
+      opacity: 0.7; }
+
+.banner .banner {
+  width: 100%; }
+.banner .bannerblok {
+  width: 100%;
+  overflow: auto; }
+  .banner .bannerblok .bannerimage {
+    width: 48%;
+    text-align: center;
+    display: inline-block;
+    float: left; }
+    .banner .bannerblok .bannerimage img {
+      width: 80%;
+      padding: 50px; }
+  .banner .bannerblok .bannertext {
+    width: 48%;
+    text-align: center;
+    display: inline-block;
+    padding-top: 10%; }
+    .banner .bannerblok .bannertext h1 {
+      font-size: 50px; }
+
+.aboutme {
+  width: 100%;
+  text-align: center; }
+  .aboutme h2 {
+    font-size: 35px; }
+  .aboutme p {
+    font-size: 18px;
+    padding: 0 10% 0 10%; }
+
+.experience > div:first-child, .projects > div:first-child, .contact > div:first-child {
+  height: 100px;
+  text-align: center;
+  background: black;
+  margin-top: 40px; }
+  .experience > div:first-child h2, .projects > div:first-child h2, .contact > div:first-child h2 {
+    font-size: 30px;
+    color: white;
+    padding: 30px; }
+
+.skillbars {
+  text-align: center; }
+  .skillbars progress {
+    display: block;
+    width: 75%;
+    margin-left: 12.5%;
+    margin-bottom: 20px; }
+
+.workexperience .workexperienceinfo1 .company {
+  padding: 20px;
+  width: 50%;
+  margin-left: 25%; }
+.workexperience .workexperienceinfo2 .company {
+  padding: 20px;
+  width: 50%;
+  margin-left: 25%; }
+
+.workexperiencetitel {
+  text-align: center; }
+
+.animalpictures .arend {
+  background-image: url("../images/arend.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 33.3%;
+  float: left;
+  display: inline-block; }
+  .animalpictures .arend p {
+    padding: 50px;
+    color: white;
+    background: rgba(0, 0, 0, 0.4);
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-left: 7%;
+    margin-right: 7%; }
+.animalpictures .gorilla {
+  background-image: url("../images/gorilla.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 33.3%;
+  float: left;
+  display: inline-block; }
+  .animalpictures .gorilla p {
+    padding: 50px;
+    color: white;
+    background: rgba(0, 0, 0, 0.4);
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-left: 7%;
+    margin-right: 7%; }
+.animalpictures .ijsbeer {
+  background-image: url("../images/ijsbeer.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 33.3%;
+  float: left;
+  display: inline-block; }
+  .animalpictures .ijsbeer p {
+    padding: 50px;
+    color: white;
+    background: rgba(0, 0, 0, 0.4);
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-left: 7%;
+    margin-right: 7%; }
+.animalpictures .leeuw {
+  background-image: url("../images/leeuw.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 33.3%;
+  float: left;
+  display: inline-block; }
+  .animalpictures .leeuw p {
+    padding: 50px;
+    color: white;
+    background: rgba(0, 0, 0, 0.4);
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-left: 7%;
+    margin-right: 7%; }
+.animalpictures .nijlpaard {
+  background-image: url("../images/nijlpaard.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 33.3%;
+  float: left;
+  display: inline-block; }
+  .animalpictures .nijlpaard p {
+    padding: 50px;
+    color: white;
+    background: rgba(0, 0, 0, 0.4);
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-left: 7%;
+    margin-right: 7%; }
+.animalpictures .olifant {
+  background-image: url("../images/olifant.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 33.3%;
+  float: left;
+  display: inline-block; }
+  .animalpictures .olifant p {
+    padding: 50px;
+    color: white;
+    background: rgba(0, 0, 0, 0.4);
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-left: 7%;
+    margin-right: 7%; }
+.animalpictures .pinguin {
+  background-image: url("../images/pinguin.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 33.3%;
+  float: left;
+  display: inline-block; }
+  .animalpictures .pinguin p {
+    padding: 50px;
+    color: white;
+    background: rgba(0, 0, 0, 0.4);
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-left: 7%;
+    margin-right: 7%; }
+.animalpictures .rodepanda {
+  background-image: url("../images/rodepanda.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 33.3%;
+  float: left;
+  display: inline-block; }
+  .animalpictures .rodepanda p {
+    padding: 50px;
+    color: white;
+    background: rgba(0, 0, 0, 0.4);
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-left: 7%;
+    margin-right: 7%; }
+.animalpictures .tijger {
+  background-image: url("../images/tijger.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 33.3%;
+  float: left;
+  display: inline-block; }
+  .animalpictures .tijger p {
+    padding: 50px;
+    color: white;
+    background: rgba(0, 0, 0, 0.4);
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-left: 7%;
+    margin-right: 7%; }
+
+.contact {
+  clear: both; }
+
+.formulier {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+  .formulier textarea {
+    margin-top: 15px;
+    max-width: 75%;
+    height: 150px;
+    max-height: 150px; }
+  .formulier .btn {
+    margin-left: 13%; }
+
+/*# sourceMappingURL=main.css.map */
