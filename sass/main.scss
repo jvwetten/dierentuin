@@ -1,0 +1,107 @@
+
+
+@import "mixins/ownmixin.scss";
+@import "vars/vars.scss";
+
+body {
+  margin: $basic-margin;
+}
+
+header {
+  @include style_navigation;
+  background: $black-color;
+  width: $basic-width;
+}
+
+.banner {
+  @include banner;
+}
+
+.aboutme {
+  width: $fullscreen;
+  text-align: $centreren;
+
+  h2 {
+    font-size: 35px;
+  }
+
+  p {
+    font-size: $font-size;
+    padding: 0 10% 0 10%;
+  }
+}
+
+.experience, .projects, .contact {
+  @include tussenheader;
+}
+
+
+
+.skillbars {
+  text-align: $centreren;
+
+  .skillbars1 {
+    @extend %skillbars;
+  }
+
+  .skillbars2 {
+    @extend %skillbars;
+  }
+
+  progress {
+    display: $block;
+    width: 75%;
+    margin-left: 12.5%;
+    margin-bottom: 20px;
+  }
+}
+
+.workexperience {
+
+  .workexperienceinfo1 {
+    @extend %skillbars;
+
+    .company {
+      padding: 20px;
+      @extend %company;
+      width: 50%;
+      margin-left: 25%;
+    }
+  }
+
+  .workexperienceinfo2 {
+    @extend %skillbars;
+
+    .company {
+      padding: 20px;
+      @extend %company;
+      width: 50%;
+      margin-left: 25%;
+    }
+
+  }
+
+}
+
+.skillbarstitle {
+  @extend %title;
+}
+
+.workexperiencetitel {
+  @extend %title;
+  text-align: $centreren;
+}
+
+.animalpictures {
+  @include animals;
+}
+
+.contact {
+  clear: both;
+}
+
+.formulier {
+  @include contact;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
